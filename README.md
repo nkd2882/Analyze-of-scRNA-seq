@@ -1,20 +1,27 @@
 # Analyze-of-scRNA-seq
 
-For project 4 for the class. This project was done with 2 other members of the team reposited in BioByte repository_branch. I am adding here the part that I created. 
+Project 4 for the Class
 
-For this data I analyzed datasets deposited in GEO repository (GSE139495, published 2020).
+This project was completed with two other team members and is stored in the BioByte repository, branch repository_branch. Below is the part that I contributed.
 
-data source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139495
-             https://pubmed.ncbi.nlm.nih.gov/32822091/
+Data Analysis
 
-Since dataset were heavy and taking time to initilize the code from the resuming, I created 2 notebooks: 
-    1. EDA/quality control pass/ merging final dataset for further analyses. 
-    2. scRNA sequening analysis. 
+For this project, I analyzed datasets deposited in the GEO repository (GSE139495, published in 2020).
 
-Datasets are too heavy to upload to github repository, please refer to the original site for your references. 
+Data Source:
+  GEO Repository (https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139495
+             https://pubmed.ncbi.nlm.nih.gov/32822091/)
+  
+Due to the large size of the datasets and the time required to initialize the code, I created two notebooks and uploaded in this repository. 
 
-Lesson to learn: 
+1. Exploratory Data Analysis (EDA), Quality Control, and Merging Final Dataset: This notebook prepares the data for further analysis.
+2. scRNA Sequencing Analysis: This notebook contains the analysis of the single-cell RNA sequencing data.
 
-Since scRNA seq data is rich of the values to close to 0, first think I should have done was inputing data. I learned harmonypy library to input data, next time I will try to analyze after inputing. 
+The datasets are too large to upload to the GitHub repository. Please refer to the original site for your references.
 
-Thank you,
+Lessons Learned:
+
+Since scRNA-seq data often contains many values close to zero, I realized that imputing data should have been my first step. I learned to use the harmonypy library for data imputation. In future analyses, I will start by imputing the data.
+
+Thank you.
+
